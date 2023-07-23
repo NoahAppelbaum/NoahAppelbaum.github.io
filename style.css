@@ -1,11 +1,12 @@
 body {
-  background-color: rgb(91, 140, 181);
-
+  /* background-color: rgb(91, 140, 181); */
+  background: rgb(139,176,207,1);
 }
 
 
 nav {
   border-bottom: thick double antiquewhite;
+
 }
 
 h1 {
@@ -17,6 +18,12 @@ p {
   font: large Georgia, serif;
 }
 
+a{
+  color: black;
+  transition-property: color;
+  transition-duration: 250ms;
+}
+
 a:link{
   text-decoration: none;
 }
@@ -25,11 +32,10 @@ a:visited{
 }
 a:hover{
   text-decoration: none;
+  color: rgb(239,201,108);
 }
 
-a{
-  color: black;
-}
+
 
 .page-content{
   /* display: flex;
